@@ -26,13 +26,13 @@ class DatabaseSeeder extends Seeder
     }
     
     function kat(){
-     /*user::create([
+     user::create([
        "name" => "Admin",
        "username" => "admin",
        "rule" => 1,
        "email" => "iqbalshof@gmail.com",
        "password" => bcrypt('Langsing1@'),
-       ]);*/
+       ]);
      kategori::create([
        "slug" => "putra",
        "name" => "putra"
